@@ -1,0 +1,15 @@
+
+@import '~bootstrap';
+@import '~animate.css';
+
+body {
+  background-image: url('../assets/images/splash.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main-navbar{
+  opacity: .9;
+}
+$body-bg: transparent;
