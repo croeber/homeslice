@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress",
+    "build": "set NODE_ENV=production && webpack --progress",
     "dev": "npm-run-all --parallel server client",
     "server": "nodemon index.js",
     "client": "webpack --watch --progress",
