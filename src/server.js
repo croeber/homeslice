@@ -72,7 +72,7 @@ app.get("/*", (req, res) => {
   });
 });
 
-console.log("READY!");
+console.log("READY");
 app.listen(process.env.PORT || 2048);
 
 function htmlTemplate(reactDom, reduxState, helmetData) {
