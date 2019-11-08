@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { fetchData } from "../store";
-
+import Map from './Map'
 class Home extends React.Component {
   componentDidMount() {
     if (this.props.circuits.length <= 0) {
@@ -16,6 +16,7 @@ class Home extends React.Component {
       <article>
         <div className="jumbotron mt-4 bounceIn">
           <div className="container">
+            <Map/>
             <h1 className="display-3">Chris Roeber</h1>
             <p>Hi. I'm a full stack developer. Let me show you how!</p>
             <p>

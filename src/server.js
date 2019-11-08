@@ -84,6 +84,9 @@ function htmlTemplate(reactDom, reduxState, helmetData) {
             ${helmetData.title.toString()}
             ${helmetData.meta.toString()}
             <title>React SSR</title>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBqqOMuVejvk6bD4FatH4-N0y1iN7hQXmk"></script>
+            <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+            <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
             <link rel="stylesheet" type="text/css" href="./styles.css" />
         </head>
 
